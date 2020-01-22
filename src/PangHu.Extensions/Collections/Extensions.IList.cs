@@ -35,7 +35,7 @@ namespace System
         /// <typeparam name="T"></typeparam>
         /// <param name="source">列表</param>
         /// <param name="parameters">元素</param>
-        public static void Add<T>(this List<T> source, params T[] parameters)
+        public static void Add<T>(this List<T> source, params T[] parameters) 
         {
             if (parameters == null || parameters.Length == 0)
                 return;
